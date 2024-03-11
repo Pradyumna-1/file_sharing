@@ -1,0 +1,63 @@
+**Demo Project: Interactive Flow Diagram with React Flow**
+
+**Objective:** 
+Develop an interactive flow diagram application using React Flow where users can create, connect, and interact with custom nodes. The primary goal is to demonstrate proficiency in UI/UX design, event handling, and data manipulation using the specified library.
+
+**Requirements:**
+
+1. **Canvas:**
+   - Utilize React Flow's canvas where users can create and manipulate nodes and edges.
+   - Implement zoom in/out and panning functionalities provided by React Flow.
+
+2. **Custom Node - Rectangle with Triangle:**
+   - Design a custom node using React Flow's node customization capabilities. This node should consist of a rectangle with a triangle inside it.
+   - The rectangle and triangle should be distinguishable, possibly with different colors or borders.
+   - Implement event handlers for the rectangle and triangle. Clicking on either should open different modals:
+     - **Rectangle Modal:** Display information or options related to the rectangle.
+     - **Triangle Modal:** Display information or options related to the triangle.
+
+3. **Node Interactions:**
+   - Allow drag and drop functionalities for nodes within the canvas using React Flow's built-in capabilities.
+   - Nodes can be connected with edges using React Flow's edge creation features.
+   - Multiple nodes should be creatable and interconnectable on the canvas.
+
+4. **Edge Interactions:**
+   - When hovering over an edge, display an option (e.g., an "X" icon) to delete the edge using React Flow's edge customization.
+   - Provide visual feedback (e.g., change in edge color) when an edge is hovered.
+
+5. **Copy & Paste Functionality:**
+   - Refer to the provided GitHub example on cut, copy, and paste functionalities with React Flow.
+   - Implement the ability to select a portion or the entirety of the flow diagram.
+   - Integrate options to copy and paste the selected portion within the same canvas.
+   - Ensure that the relationships (edges) between nodes are preserved when pasted.
+
+6. **Additional Features (Optional but Recommended):**
+   - Implement undo/redo functionality using React Flow's state management.
+   - Save and Load flow diagrams using local storage or a backend service.
+   - Export flow diagram as an image using React Flow's export capabilities.
+
+7. **Technical Considerations:**
+   - The application should be web-based, leveraging React and React Flow.
+   - Ensure the application is responsive and works seamlessly across different screen sizes.
+   - Implement error handling for edge cases, such as trying to connect a node to itself.
+
+8. **Documentation:**
+   - Provide a README file detailing how to set up, run, and use the application.
+   - Include comments in the codebase to explain the logic and flow of the application.
+
+**Evaluation Criteria:**
+- Functionality: Does the application meet all the requirements using React Flow?
+- Code Quality: Is the code well-organized, readable, and efficient?
+- UI/UX Design: Is the application user-friendly and visually appealing?
+- Bonus: Implementation of additional features and overall creativity using React Flow's features.
+
+**Submission:**
+- Provide a link to the repository containing the source code, assets, and documentation.
+- Include a live demo or video walkthrough of the application in action.
+
+Note: Familiarize yourself with React Flow's documentation and the provided GitHub example to ensure a smooth development process.
+
+strictly use this libarary:
+https://reactflow.dev/docs/examples/overview/
+and use these for reference:
+https://github.com/kuldeepkeshwar/react-flow-copy-paste/blob/master/src/examples/useCutCopyPaste.js
